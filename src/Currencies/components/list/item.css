@@ -1,0 +1,24 @@
+.CurrencyInList {
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+  text-decoration: none;
+}
+
+.CurrencyInList:hover{
+  background-color: rgba(0,0,0, 0.1);
+}
+
+.CurrencyInList> div {
+  width: 25%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.CurrencyInList__percentChange--increase{
+   color: var(--greenColor);
+}
+
+.CurrencyInList__percentChange--decrease{
+  color: var(--redColor)
+}

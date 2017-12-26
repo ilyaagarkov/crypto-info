@@ -1,0 +1,12 @@
+.FiatSettings {
+  display: flex;
+}
+
+.FiatSettings__fiat{
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.FiatSettings__fiat--isCurrent{
+  text-decoration: underline;
+}

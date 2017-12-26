@@ -1,0 +1,8 @@
+.Header{
+
+}
+
+.Header__menuItem {
+  display: inline-block;
+  margin: 0 15px;
+}

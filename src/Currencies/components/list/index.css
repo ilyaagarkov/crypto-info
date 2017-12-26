@@ -1,0 +1,16 @@
+.CurrencyList {
+
+}
+
+.CurrencyList__header {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.CurrencyList__header > div {
+  width: 25%;
+  text-align: center;
+}
+
+

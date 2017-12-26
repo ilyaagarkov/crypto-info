@@ -1,0 +1,17 @@
+.CurrencyInfo {
+
+}
+
+.CurrencyInfo__field span:first-child{
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.CurrencyInfo__change--increase {
+  color: var(--greenColor)
+}
+
+.CurrencyInfo__change--decrease{
+  color: var(--redColor)
+}
